@@ -1,7 +1,7 @@
 package user
 
 import (
-	"chatroom2/user/model"
+	"chatroom2/model"
 	"sync"
 )
 

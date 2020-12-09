@@ -1,8 +1,8 @@
 package handles
 
 import (
-	"chatroom2/user/model"
-	"chatroom2/user/public"
+	"chatroom2/model"
+	"chatroom2/public"
 )
 
 type RenameHandle struct {
@@ -24,7 +24,7 @@ func (q *RenameHandle) Handle(msgModel *model.MessageActionModel, user *model.Us
 	})
 
 	if isUsed {
-		user.Message <- "改名失败，用户名重复:" + user.Name
+		user.Message <- "改名失败，用户名重复:" + newName
 		return
 	}
 

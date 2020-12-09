@@ -1,8 +1,8 @@
 package user
 
 import (
-	. "chatroom2/user/contracts"
-	"chatroom2/user/model"
+	. "chatroom2/contracts"
+	"chatroom2/model"
 	"fmt"
 	"net"
 )

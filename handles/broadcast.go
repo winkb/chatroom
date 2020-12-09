@@ -1,8 +1,8 @@
 package handles
 
 import (
-	"chatroom2/user/model"
-	"chatroom2/user/public"
+	"chatroom2/model"
+	"chatroom2/public"
 )
 
 type BroadcastHandle struct {

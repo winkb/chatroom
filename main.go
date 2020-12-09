@@ -1,10 +1,10 @@
 package main
 
 import (
+	"chatroom2/handles"
+	"chatroom2/model"
+	"chatroom2/public"
 	"chatroom2/user"
-	"chatroom2/user/handles"
-	"chatroom2/user/model"
-	"chatroom2/user/public"
 	"fmt"
 	"net"
 	"time"

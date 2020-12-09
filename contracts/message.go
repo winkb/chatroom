@@ -1,7 +1,7 @@
 package contracts
 
 import (
-	"chatroom2/user/model"
+	"chatroom2/model"
 )
 
 type IMessageHandle interface {
